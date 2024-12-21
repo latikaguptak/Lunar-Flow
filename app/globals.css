@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 335 77% 46%;
+  --primary-foreground: 0 0% 98%;
+  --primary-dark: 335 77% 36%;
+  --secondary: 335 77% 96%;
+  --secondary-foreground: 335 77% 26%;
+  --background: 335 50% 98%;
+  --foreground: 335 77% 16%;
+  --muted: 335 77% 94%;
+  --muted-foreground: 335 77% 36%;
+  --accent: 335 77% 92%;
+  --accent-foreground: 335 77% 26%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 335 77% 90%;
+  --input: 335 77% 90%;
+  --ring: 335 77% 46%;
+  --radius: 1rem;
+}
+
+.dark {
+  --primary: 335 77% 56%;
+  --primary-foreground: 0 0% 98%;
+  --primary-dark: 335 77% 46%;
+  --secondary: 335 77% 16%;
+  --secondary-foreground: 335 77% 96%;
+  --background: 335 50% 8%;
+  --foreground: 335 77% 96%;
+  --muted: 335 77% 16%;
+  --muted-foreground: 335 77% 76%;
+  --accent: 335 77% 16%;
+  --accent-foreground: 335 77% 96%;
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 335 77% 26%;
+  --input: 335 77% 26%;
+  --ring: 335 77% 56%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, 
+    hsl(335, 77%, 98%) 0%, 
+    hsl(335, 77%, 94%) 50%,
+    hsl(335, 77%, 90%) 100%
+  );
+}
+
+.dark .gradient-bg {
+  background: linear-gradient(135deg, 
+    hsl(335, 50%, 8%) 0%, 
+    hsl(335, 50%, 12%) 50%,
+    hsl(335, 50%, 16%) 100%
+  );
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.dark .glass-card {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.dark .glass-card:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.bg-grid-white {
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fff' fill-opacity='0.05' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+}
