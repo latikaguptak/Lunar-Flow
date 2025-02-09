@@ -77,7 +77,7 @@ export function Sidebar() {
           <Sparkles className="h-8 w-8 text-primary/50" />
         </div>
         <div>
-          <span className="text-xl font-bold">Luna Flow</span>
+          <span className="text-xl font-bold">Lunar Flow</span>
           <p className="text-xs text-muted-foreground">Track with mindfulness</p>
         </div>
       </div>

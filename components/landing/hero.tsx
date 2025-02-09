@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 export function LandingHero() {
   return (
@@ -34,7 +35,7 @@ export function LandingHero() {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="text-xl text-muted-foreground mb-8 max-w-xl"
             >
-              Luna Flow helps you understand your menstrual cycle with intuitive tracking, 
+              Lunar Flow helps you understand your menstrual cycle with intuitive tracking, 
               personalized insights, and mindful wellness features. Take control of your 
               health journey with our comprehensive cycle tracking solution.
             </motion.p>
@@ -94,7 +95,7 @@ export function LandingHero() {
                 className="absolute inset-0"
               >
                 <img
-                  src="https://ouchmagazine.com/cdn/shop/articles/giphy_830db74f-92ca-41c9-861b-a1b4740334bf.gif?v=1721689604"
+                  src="./woman_meditation.jpg"
                   alt="Woman meditating"
                   className="w-full h-full object-contain"
                 />

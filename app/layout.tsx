@@ -5,7 +5,7 @@ import { Providers } from './providers';
 const playfair = Playfair_Display({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Luna Flow - Menstrual Cycle Tracking',
+  title: 'Lunar Flow - Menstrual Cycle Tracking',
   description: 'Track your menstrual cycle with elegance and insight',
 };
 

@@ -63,7 +63,7 @@ export default function LoginPage() {
         <div className="flex flex-col items-center mb-8">
           <MoonIcon className="h-12 w-12 text-primary mb-4" />
           <h1 className="text-3xl font-bold">Welcome back</h1>
-          <p className="text-muted-foreground">Sign in to your Luna Flow account</p>
+          <p className="text-muted-foreground">Sign in to your Lunar Flow account</p>
         </div>
 
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">

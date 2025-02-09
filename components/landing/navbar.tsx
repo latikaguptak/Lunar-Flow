@@ -49,7 +49,7 @@ export function LandingNavbar() {
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <MoonIcon className="h-8 w-8 text-white" />
-          <span className="text-2xl font-bold text-white">Luna Flow</span>
+          <span className="text-2xl font-bold text-white">Lunar Flow</span>
         </Link>
 
         <div className="hidden md:flex items-center space-x-6">

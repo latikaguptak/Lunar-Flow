@@ -4,7 +4,7 @@ export function LandingFooter() {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold text-lg mb-4">Luna Flow</h3>
+            <h3 className="font-bold text-lg mb-4">Lunar Flow</h3>
             <p className="text-muted-foreground">
               Empowering women through cycle awareness and tracking.
             </p>
@@ -95,7 +95,7 @@ export function LandingFooter() {
 
         <div className="mt-8 pt-8 border-t text-center text-muted-foreground">
           <p>
-            &copy; {new Date().getFullYear()} Luna Flow. All rights reserved.
+            &copy; {new Date().getFullYear()} Lunar Flow. All rights reserved.
           </p>
         </div>
       </div>

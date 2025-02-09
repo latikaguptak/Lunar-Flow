@@ -25,9 +25,9 @@ export default function DocsPage() {
       >
         {/* Introduction */}
         <section>
-          <h1 className="text-4xl font-bold mb-4">Luna Flow Documentation</h1>
+          <h1 className="text-4xl font-bold mb-4">Lunar Flow Documentation</h1>
           <p className="text-lg text-muted-foreground mb-8">
-            A comprehensive guide to using Luna Flow for menstrual cycle tracking and wellness management.
+            A comprehensive guide to using Lunar Flow for menstrual cycle tracking and wellness management.
           </p>
           <Separator className="my-8" />
         </section>
@@ -38,7 +38,7 @@ export default function DocsPage() {
           <Card>
             <CardContent className="pt-6">
               <p className="mb-4">
-                Luna Flow is a comprehensive menstrual cycle tracking application designed to help you understand and monitor your menstrual health. Here's what you need to know to get started:
+                Lunar Flow is a comprehensive menstrual cycle tracking application designed to help you understand and monitor your menstrual health. Here's what you need to know to get started:
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Create an account using your email</li>
@@ -205,7 +205,7 @@ export default function DocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="mb-4">Personalize your Luna Flow experience:</p>
+              <p className="mb-4">Personalize your Lunar Flow experience:</p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Theme customization (Light/Dark mode)</li>
                 <li>Notification preferences</li>
@@ -242,7 +242,7 @@ export default function DocsPage() {
           <h2 className="text-3xl font-bold">Privacy & Security</h2>
           <Card>
             <CardContent className="pt-6">
-              <p className="mb-4">Luna Flow takes your privacy seriously:</p>
+              <p className="mb-4">Lunar Flow takes your privacy seriously:</p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>End-to-end encryption for all personal data</li>
                 <li>Strict data protection policies</li>

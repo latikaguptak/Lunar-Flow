@@ -57,7 +57,7 @@ export default function RegisterPage() {
         <div className="flex flex-col items-center mb-8">
           <MoonIcon className="h-12 w-12 text-primary mb-4" />
           <h1 className="text-3xl font-bold">Create an account</h1>
-          <p className="text-muted-foreground">Start your journey with Luna Flow</p>
+          <p className="text-muted-foreground">Start your journey with Lunar Flow</p>
         </div>
 
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
